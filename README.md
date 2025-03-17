@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,11 +5,11 @@
     <title>Infenium Media | Authentic Growth for Brands & Influencers</title>
     <style>
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #0d0d0d;
-            color: #fff;
+            background-color: #f4f4f4;
+            color: #333;
             text-align: center;
         }
         .container {
@@ -20,8 +19,9 @@
         }
         .hero {
             padding: 100px 20px;
-            background: linear-gradient(135deg, #ff4500, #e03d00);
+            background: linear-gradient(135deg, #ff8c00, #ff4500);
             color: white;
+            font-weight: bold;
         }
         .hero h1 {
             font-size: 3.5rem;
@@ -35,7 +35,7 @@
             display: inline-block;
             margin-top: 20px;
             padding: 12px 24px;
-            background-color: #222;
+            background-color: #ff4500;
             color: #fff;
             text-decoration: none;
             font-weight: bold;
@@ -43,7 +43,7 @@
             transition: background 0.3s;
         }
         .btn:hover {
-            background-color: #333;
+            background-color: #e03d00;
         }
         .section {
             padding: 60px 20px;
@@ -59,32 +59,35 @@
             gap: 20px;
         }
         .service-box {
-            background: #222;
+            background: #fff;
             padding: 20px;
             border-radius: 10px;
             width: 300px;
             text-align: center;
             transition: transform 0.3s;
             cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         .service-box:hover {
             transform: translateY(-5px);
+            background: #ffedd5;
         }
         .service-description {
             display: none;
-            background: #1a1a1a;
+            background: #fffaeb;
             padding: 20px;
             margin-top: 10px;
             border-radius: 10px;
         }
         .footer {
             padding: 20px;
-            background-color: #222;
-            opacity: 0.8;
+            background-color: #ff4500;
+            color: white;
+            opacity: 0.9;
         }
         .contact {
             padding: 40px 20px;
-            background-color: #1a1a1a;
+            background-color: #ffedd5;
         }
         .contact a {
             color: #ff4500;
@@ -102,6 +105,7 @@
             cursor: pointer;
             font-size: 24px;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -143,18 +147,7 @@
                 <div class="service-description" id="service3">We handle everything from strategy to execution, ensuring seamless campaign delivery and success.</div>
                 <div class="service-box" onclick="toggleServiceDescription('service4')">Creative Ads</div>
                 <div class="service-description" id="service4">Innovative and high-converting ad creatives that grab attention and drive sales.</div>
-                <div class="service-box" onclick="toggleServiceDescription('service5')">Performance Marketing</div>
-                <div class="service-description" id="service5">We optimize campaigns for maximum ROI with data-driven performance marketing strategies.</div>
-                <div class="service-box" onclick="toggleServiceDescription('service6')">Brand Partnerships & Sponsorships</div>
-                <div class="service-description" id="service6">We connect you with the right partners to amplify your brand reach.</div>
-                <div class="service-box" onclick="toggleServiceDescription('service7')">Social Media Growth & Consulting</div>
-                <div class="service-description" id="service7">Strategic consulting to boost your social media presence and engagement.</div>
             </div>
-        </div>
-
-        <div class="section">
-            <h2>Why Choose Us?</h2>
-            <p>Proven results, innovative strategies, and a commitment to real growth.</p>
         </div>
     </div>
 
