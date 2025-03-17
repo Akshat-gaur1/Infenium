@@ -19,9 +19,16 @@
         }
         .hero {
             padding: 100px 20px;
-            background: linear-gradient(135deg, #ff8c00, #ff4500);
+            background: linear-gradient(135deg, #0077b6, #0096c7);
             color: white;
             font-weight: bold;
+            position: relative;
+        }
+        .hero img {
+            max-width: 150px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
         }
         .hero h1 {
             font-size: 3.5rem;
@@ -35,7 +42,7 @@
             display: inline-block;
             margin-top: 20px;
             padding: 12px 24px;
-            background-color: #ff4500;
+            background-color: #0096c7;
             color: #fff;
             text-decoration: none;
             font-weight: bold;
@@ -43,7 +50,7 @@
             transition: background 0.3s;
         }
         .btn:hover {
-            background-color: #e03d00;
+            background-color: #0077b6;
         }
         .section {
             padding: 60px 20px;
@@ -70,27 +77,27 @@
         }
         .service-box:hover {
             transform: translateY(-5px);
-            background: #ffedd5;
+            background: #caf0f8;
         }
         .service-description {
             display: none;
-            background: #fffaeb;
+            background: #e0f7fa;
             padding: 20px;
             margin-top: 10px;
             border-radius: 10px;
         }
         .footer {
             padding: 20px;
-            background-color: #ff4500;
+            background-color: #0096c7;
             color: white;
             opacity: 0.9;
         }
         .contact {
             padding: 40px 20px;
-            background-color: #ffedd5;
+            background-color: #caf0f8;
         }
         .contact a {
-            color: #ff4500;
+            color: #0096c7;
             text-decoration: none;
             font-weight: bold;
         }
@@ -98,7 +105,7 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
-            background: #ff4500;
+            background: #0096c7;
             color: white;
             padding: 15px;
             border-radius: 50%;
@@ -125,6 +132,7 @@
 </head>
 <body>
     <div class="hero">
+        <img src="logo.png" alt="Infenium Media Logo">
         <h1>Infenium Media</h1>
         <p>Bridging brands & influencers for authentic collaborations.</p>
         <a href="#contact" class="btn">Let's Work Together</a>
