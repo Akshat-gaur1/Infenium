@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #111;
+            background-color: #0d0d0d;
             color: #fff;
             text-align: center;
         }
@@ -20,7 +20,8 @@
         }
         .hero {
             padding: 100px 20px;
-            background: linear-gradient(135deg, #1a1a1a, #222);
+            background: linear-gradient(135deg, #ff4500, #e03d00);
+            color: white;
         }
         .hero h1 {
             font-size: 3.5rem;
@@ -34,7 +35,7 @@
             display: inline-block;
             margin-top: 20px;
             padding: 12px 24px;
-            background-color: #ff4500;
+            background-color: #222;
             color: #fff;
             text-decoration: none;
             font-weight: bold;
@@ -42,7 +43,7 @@
             transition: background 0.3s;
         }
         .btn:hover {
-            background-color: #e03d00;
+            background-color: #333;
         }
         .section {
             padding: 60px 20px;
@@ -135,19 +136,19 @@
             <h2>Our Services</h2>
             <div class="services">
                 <div class="service-box" onclick="toggleServiceDescription('service1')">Influencer Marketing</div>
-                <div class="service-description" id="service1">[Brief description here]</div>
+                <div class="service-description" id="service1">We have a network of 100+ nano and micro-influencers ready to work with your brand, ensuring targeted and authentic audience engagement.</div>
                 <div class="service-box" onclick="toggleServiceDescription('service2')">UGC Creators</div>
-                <div class="service-description" id="service2">[Brief description here]</div>
+                <div class="service-description" id="service2">Our professional UGC creators deliver high-quality content tailored for maximum engagement and brand trust.</div>
                 <div class="service-box" onclick="toggleServiceDescription('service3')">End-to-End Campaign Management</div>
-                <div class="service-description" id="service3">[Brief description here]</div>
+                <div class="service-description" id="service3">We handle everything from strategy to execution, ensuring seamless campaign delivery and success.</div>
                 <div class="service-box" onclick="toggleServiceDescription('service4')">Creative Ads</div>
-                <div class="service-description" id="service4">[Brief description here]</div>
+                <div class="service-description" id="service4">Innovative and high-converting ad creatives that grab attention and drive sales.</div>
                 <div class="service-box" onclick="toggleServiceDescription('service5')">Performance Marketing</div>
-                <div class="service-description" id="service5">[Brief description here]</div>
+                <div class="service-description" id="service5">We optimize campaigns for maximum ROI with data-driven performance marketing strategies.</div>
                 <div class="service-box" onclick="toggleServiceDescription('service6')">Brand Partnerships & Sponsorships</div>
-                <div class="service-description" id="service6">[Brief description here]</div>
+                <div class="service-description" id="service6">We connect you with the right partners to amplify your brand reach.</div>
                 <div class="service-box" onclick="toggleServiceDescription('service7')">Social Media Growth & Consulting</div>
-                <div class="service-description" id="service7">[Brief description here]</div>
+                <div class="service-description" id="service7">Strategic consulting to boost your social media presence and engagement.</div>
             </div>
         </div>
 
