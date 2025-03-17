@@ -74,10 +74,17 @@
             transition: transform 0.3s;
             cursor: pointer;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .service-box:hover {
             transform: translateY(-5px);
             background: #caf0f8;
+        }
+        .service-box img {
+            width: 50px;
+            margin-bottom: 10px;
         }
         .service-description {
             display: none;
@@ -132,7 +139,7 @@
 </head>
 <body>
     <div class="hero">
-        <img src="logo.png" alt="Infenium Media Logo">
+        <img src="/mnt/data/Screenshot 2025-03-17 143655.png" alt="Infenium Media Logo">
         <h1>Infenium Media</h1>
         <p>Bridging brands & influencers for authentic collaborations.</p>
         <a href="#contact" class="btn">Let's Work Together</a>
@@ -140,20 +147,27 @@
 
     <div class="container">
         <div class="section">
-            <h2>About Us</h2>
-            <p>An extension to your marketing team—Infenium Media seamlessly integrates with your brand to drive authentic collaborations and impactful campaigns.</p>
-        </div>
-
-        <div class="section">
             <h2>Our Services</h2>
             <div class="services">
-                <div class="service-box" onclick="toggleServiceDescription('service1')">Influencer Marketing</div>
+                <div class="service-box" onclick="toggleServiceDescription('service1')">
+                    <img src="influencer-icon.png" alt="Influencer Marketing">
+                    Influencer Marketing
+                </div>
                 <div class="service-description" id="service1">We have a network of 100+ nano and micro-influencers ready to work with your brand, ensuring targeted and authentic audience engagement.</div>
-                <div class="service-box" onclick="toggleServiceDescription('service2')">UGC Creators</div>
+                <div class="service-box" onclick="toggleServiceDescription('service2')">
+                    <img src="ugc-icon.png" alt="UGC Creators">
+                    UGC Creators
+                </div>
                 <div class="service-description" id="service2">Our professional UGC creators deliver high-quality content tailored for maximum engagement and brand trust.</div>
-                <div class="service-box" onclick="toggleServiceDescription('service3')">End-to-End Campaign Management</div>
+                <div class="service-box" onclick="toggleServiceDescription('service3')">
+                    <img src="campaign-icon.png" alt="End-to-End Campaign Management">
+                    End-to-End Campaign Management
+                </div>
                 <div class="service-description" id="service3">We handle everything from strategy to execution, ensuring seamless campaign delivery and success.</div>
-                <div class="service-box" onclick="toggleServiceDescription('service4')">Creative Ads</div>
+                <div class="service-box" onclick="toggleServiceDescription('service4')">
+                    <img src="ads-icon.png" alt="Creative Ads">
+                    Creative Ads
+                </div>
                 <div class="service-description" id="service4">Innovative and high-converting ad creatives that grab attention and drive sales.</div>
             </div>
         </div>
