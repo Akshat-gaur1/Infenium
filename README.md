@@ -139,7 +139,7 @@
 </head>
 <body>
     <div class="hero">
-        <img src="/mnt/data/Screenshot 2025-03-17 143655.png" alt="Infenium Media Logo">
+        <img src=""C:\Users\aksha\Pictures\Screenshots\Screenshot 2025-03-17 143655.png"" alt="Infenium Media Logo">
         <h1>Infenium Media</h1>
         <p>Bridging brands & influencers for authentic collaborations.</p>
         <a href="#contact" class="btn">Let's Work Together</a>
